@@ -1,3 +1,34 @@
 #Pandora
 #2016-03-13
 #Used for: recording the information which i studied.
+#
+#2016-03-13
+#git study:
+#1. git clone repo
+#2. git checkout -b branch_name //download the files.
+#3. git branch -r //check the remote_name, remote_branch
+#4. git push -u remote_name branch_local:branch_remote
+#====================================================
+#git add remote branch
+#1. git remote add dev https:///pandoralong:jfeng7643222@github.com/pandoralong/git_remote_repo.git
+#	//add the dev branch to git_remote_repo as remote_branch.
+#2. git push -u git_remote_repo dev
+#	//push to the remote: should follow: remote_name branch_local
+#
+#=====================================================
+#git fetch & git pull
+#1. git branch -r 
+#	[root@iZ25css8apiZ hello-world-clone]# git branch -r
+#	  dev/branch_new
+#	  git_remote_dev/branch_new
+#	  git_remote_dev/dev
+#	  git_remote_dev/master
+#	  git_remote_test2/branch_new
+#	  git_remote_test2/dev
+#	  git_remote_test2/master
+#	  origin/HEAD -> origin/master
+#	  origin/master
+#	  origin/readme-edits
+#	  [root@iZ25css8apiZ hello-world-clone]#
+#
+#2. git fetch remote_name branch_remote:branch_local //branch_local is what you want to generate at the local.
